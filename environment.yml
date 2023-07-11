@@ -1,0 +1,18 @@
+name: DATA690_financial_data_science
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - pip
+  - python=3.9.6
+  - scipy
+  - seaborn
+  - pip:
+    - scikit-learn
+    - tqdm
+    - xgboost
+    - yfinance
